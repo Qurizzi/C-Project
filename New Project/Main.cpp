@@ -2,8 +2,9 @@
 #include "People.h"
 #include "Calculator.h"
 #include "Salary.h"
+// this file not using command "using namespace std"
 
-void printMenu()
+void printMenu() // function for menu
 {
 	std::cout << "1.All id" << std::endl;
 	std::cout << "2.Peope" << std::endl;
@@ -13,7 +14,7 @@ void printMenu()
 	std::cout << "Please select a number from the menu: ";
 }
 
-void UserSelection()
+void UserSelection() // function for menu
 {
 	int x;
 	std::cin >> x;
@@ -43,10 +44,10 @@ void UserSelection()
 
 int main()
 {
-	std::cout << "\t\t --Welcome to the Software Development Process Menu--" << std::endl;\
+	std::cout << "\t\t --Welcome to the Software Development Process Menu--" << std::endl; // start menu
 	printMenu();
 	UserSelection();
-	while (true)
+	while (true) // loop for menu
 	{
 		std::cout << std::endl;
 		std::cout << "\t\tMenu" << std::endl;

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|solutionrelative:New Project\\Calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|D:\\C\u002B\u002B\\New Project\\New Project\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|solutionrelative:New Project\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|D:\\C\u002B\u002B\\New Project\\New Project\\People.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|solutionrelative:New Project\\People.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|D:\\C\u002B\u002B\\New Project\\New Project\\Salary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|solutionrelative:New Project\\Salary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|D:\\C\u002B\u002B\\New Project\\New Project\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12B4AF93-6F41-47B8-8FA9-5025AA68DB65}|New Project\\New Project.vcxproj|solutionrelative:New Project\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Salary.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\New Project\\New Project\\Salary.h",
               "RelativeDocumentMoniker": "New Project\\Salary.h",
               "ToolTip": "D:\\C\u002B\u002B\\New Project\\New Project\\Salary.h",
               "RelativeToolTip": "New Project\\Salary.h",
-              "ViewState": "AgIAABYAAAAAAAAAAAAvwCMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-07T15:15:04.128Z",
               "EditorCaption": ""
@@ -49,33 +49,33 @@
               "RelativeDocumentMoniker": "New Project\\Calculator.h",
               "ToolTip": "D:\\C\u002B\u002B\\New Project\\New Project\\Calculator.h",
               "RelativeToolTip": "New Project\\Calculator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-07T14:34:33.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "People.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\New Project\\New Project\\People.h",
               "RelativeDocumentMoniker": "New Project\\People.h",
               "ToolTip": "D:\\C\u002B\u002B\\New Project\\New Project\\People.h",
               "RelativeToolTip": "New Project\\People.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-06T18:16:12.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B\\New Project\\New Project\\Main.cpp",
               "RelativeDocumentMoniker": "New Project\\Main.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\New Project\\New Project\\Main.cpp",
               "RelativeToolTip": "New Project\\Main.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-06T12:01:22.742Z",
               "EditorCaption": ""

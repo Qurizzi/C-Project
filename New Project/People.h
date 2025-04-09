@@ -1,9 +1,12 @@
+// This file is under editing
+
 #pragma once
 #include <iostream>
 #include <vector>
 using namespace std;
 
-struct People
+
+struct People // in progress redacting...
 {
 	string name;
 	int id;
@@ -37,6 +40,6 @@ void people()
 	std::cout << "\n" << "Info: " << p.name << "\n" << "id: " << p.id << "\n" << "age: " << p.age << std::endl;
 }
 
-void people_id_list()
+void people_id_list() // in progress
 {
 }
