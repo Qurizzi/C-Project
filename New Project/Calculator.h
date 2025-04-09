@@ -8,12 +8,16 @@ void calculator()
 	cout << "Please enter two numbers: " << endl;
 	double a, b;
 	cin >> a >> b;
-	cout << "Please select an operation (+, -, *, /): " << endl;
+	cout << "Please select an operation (+, -, *, /) " << "or please enter 1 to return to menu..." << endl;
 	char operation;
 	cin >> operation;
 	double result;
 	switch (operation)
 	{
+	case '1':
+		cout << "Return to menu..." << endl;
+		return;
+		break;
 	case '+':
 		result = a + b;
 		cout << "The result is: " << result << endl;
@@ -38,5 +42,8 @@ void calculator()
 			return;
 		}
 		break;
+	default:
+		cout << "Error: Invalid operation!" << endl;
+		return;
 	}
 }

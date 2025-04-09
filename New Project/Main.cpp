@@ -2,50 +2,56 @@
 #include "People.h"
 #include "Calculator.h"
 #include "Salary.h"
-using namespace std;
 
 void printMenu()
 {
-	cout << "\t\t --Welcome to the Software Development Process Menu--" << endl;
-	cout << "1.All id" << endl;
-	cout << "2.Peope" << endl;
-	cout << "3.Calculator" << endl;
-	cout << "4.Salary calculator" << endl;
-	cout << "5.Exit" << endl;
-	cout << "Please select a number from the menu: ";
+	std::cout << "1.All id" << std::endl;
+	std::cout << "2.Peope" << std::endl;
+	std::cout << "3.Calculator" << std::endl;
+	std::cout << "4.Salary calculator" << std::endl;
+	std::cout << "5.Exit" << std::endl;
+	std::cout << "Please select a number from the menu: ";
 }
 
 void UserSelection()
 {
 	int x;
-	cin >> x;
+	std::cin >> x;
 	switch (x)
 	{
 	case 1:
-
+		people_id_list(); //not working :(
 		break;
 	case 2:
-		people();
+		people(); // information about people (name, id, age)
 		break;
 	case 3:
-		calculator();
+		calculator(); // standard calculator
 		break;
 	case 4:
-		salary();
+		salary(); // salary calculator (hourly wage * hours worked)
 		break;
 	case 5:
-		cout << "Exiting program..." << endl;
+		std::cout << "Exiting program..." << std::endl;
 		exit(0);
 		break;
 	default:
-		cout << "ERROR, please restart program" << endl;
+		std::cout << "ERROR, please restart program" << std::endl;
 		break;
 	}
 }
 
 int main()
 {
+	std::cout << "\t\t --Welcome to the Software Development Process Menu--" << std::endl;\
 	printMenu();
 	UserSelection();
+	while (true)
+	{
+		std::cout << std::endl;
+		std::cout << "\t\tMenu" << std::endl;
+		printMenu();
+		UserSelection();
+	}
 	return 0;
 }

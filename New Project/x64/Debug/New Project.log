@@ -1,2 +1,5 @@
 ﻿  Main.cpp
+D:\C++\New Project\New Project\Salary.h(15,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Main.cpp')
+  
   New Project.vcxproj -> D:\C++\New Project\x64\Debug\New Project.exe

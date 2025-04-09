@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <vector>
 using namespace std;
 
 struct People
@@ -9,36 +10,33 @@ struct People
 	int age;
 };
 
-void people()
-{
-	People p1;
-	p1.name = "Oleh";
-	p1.id = 1;
-	p1.age = 25;
-	People p2;
-	p2.name = "Alex";
-	p2.id = 2;
-	p2.age = 22;
-}
-
 void people_list_info()
 {
 	People info;
-	info.name = "Oleh";
+	info.name = "1.Oleh";
 	info.id = 1;
 	info.age = 25;
-	cout << info.name << endl << "id: " << info.id << endl << "age: " <<  info.age << "\n" << endl;
-	info.name = "Alex";
+	std::cout << info.name << std::endl << "id: " << info.id << "\n" << std::endl;
+	info.name = "2.Alex";
 	info.id = 2;
 	info.age = 22;
-	cout << info.name << endl << "id: " << info.id << "\n" << endl;
+	std::cout << info.name << std::endl << "id: " << info.id << "\n" << std::endl;
 }
 
-void id_list()
+void people()
 {
-	People list;
-	list.id = 1;
-	cout << list.id << endl;
-	list.id = 2;
-	cout << list.id << endl;
+	std::cout << "All info on people:" << std::endl;
+	People p;
+	p.name = "Oleh";
+	p.id = 1;
+	p.age = 25;
+	std::cout << "\n" << "Info: " << p.name << "\n" << "id: " << p.id << "\n" << "age: " << p.age << std::endl;
+	p.name = "Alex";
+	p.id = 2;
+	p.age = 22;
+	std::cout << "\n" << "Info: " << p.name << "\n" << "id: " << p.id << "\n" << "age: " << p.age << std::endl;
+}
+
+void people_id_list()
+{
 }
