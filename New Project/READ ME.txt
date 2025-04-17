@@ -1,0 +1,19 @@
+This program is designed to assist users such as managers, bookkeepers, or supervisors in managing basic employee data and performing routine calculations.
+
+Currently, the application allows:
+
+    - Viewing employee information (name, ID, age)
+
+    - Running a basic calculator
+
+    - Calculating salaries (hourly wage × hours worked)
+
+🔧 Note: The system is still under development. Many features are planned and will be added over time, including:
+
+    - Adding and removing employees directly within the program
+
+    - Counting the total number of employees in the database
+
+    - Improved input handling and interface updates
+
+ Two example users are currently hardcoded for demonstration purposes. You can change their data manually in the code for now — dynamic data editing will be implemented in future versions.

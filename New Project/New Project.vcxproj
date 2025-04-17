@@ -24,6 +24,7 @@
     <ProjectGuid>{12b4af93-6f41-47b8-8fa9-5025aa68db65}</ProjectGuid>
     <RootNamespace>NewProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>User Program</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -130,9 +131,9 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calculator.h" />
-    <ClInclude Include="People.h" />
-    <ClInclude Include="Salary.h" />
+    <ClInclude Include="Calculator.cpp" />
+    <ClInclude Include="People.cpp" />
+    <ClInclude Include="Salary.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

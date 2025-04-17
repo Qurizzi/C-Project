@@ -1,7 +1,7 @@
 #include <iostream>
-#include "People.h"
-#include "Calculator.h"
-#include "Salary.h"
+#include "People.cpp"
+#include "Calculator.cpp"
+#include "Salary.cpp"
 // this file not using command "using namespace std"
 
 void printMenu() // function for menu

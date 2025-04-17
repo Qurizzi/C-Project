@@ -20,13 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="People.h">
+    <ClInclude Include="People.cpp">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="Calculator.h">
+    <ClInclude Include="Calculator.cpp">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="Salary.h">
+    <ClInclude Include="Salary.cpp">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
